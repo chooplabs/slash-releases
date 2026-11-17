@@ -4147,5 +4147,42 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.87.2/Slash-1.87.2.dmg" length="33133244" type="application/octet-stream" sparkle:edSignature="b9MiXTJRKKSiOqm7e/UoW8JQkCx/sPqlmHPapMcQzvKj8RSDldqB24c78FhKMxaQMO76G6iDGJnr6qeRoWUDDQ==" />
     </item>
+    <item>
+      <title>Version 1.88.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.88.0</link>
+      <sparkle:version>161</sparkle:version>
+      <sparkle:shortVersionString>1.88.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>160</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>161</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Sections inside a folder.</strong> Add a section with <strong>+ Add section</strong> at the bottom of a folder, then drag items onto its title or use <strong>Move to section</strong> in an item's ⋯ menu. Sections can be renamed, folded, moved up or down, and deleted; deleting one keeps its items. Folders without sections look as before.</li>
+          <li><strong>Put a folder in your own order.</strong> Pick <strong>Manual</strong> in a folder's sort menu, or just drag a row above another, and the folder keeps that order. <strong>Move up</strong> and <strong>Move down</strong> in the ⋯ menu do the same from the keyboard. Every move undoes with ⌘Z. A folder's sort, Manual or any other, now follows the folder to your other Macs.</li>
+          <li><strong>Change a task's date from its row.</strong> Point at a task and click the calendar button beside its ⋯ to pick a new date without opening it. On the Tasks tab, <strong>Reschedule</strong> next to Overdue moves every overdue task to one date, and ⌘Z puts them back.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Restoring a large library keeps Slash responsive.</strong> Long lists no longer redraw for every picture and file during a restore, and sync reads large batches in the background, so the Library stays usable while a big backup comes back.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.88.0/Slash-1.88.0.dmg" length="35824867" type="application/octet-stream" sparkle:edSignature="zfSIVGXJ/Sv6xKKc7XXRD642vHziqdSoPxWCv9QyBVRH92xKMlIDucQEv0XRDBKIPc02wY1QLk7QxiC1tp2qBA==" />
+    </item>
   </channel>
 </rss>
