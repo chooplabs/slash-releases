@@ -4215,5 +4215,37 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.88.1/Slash-1.88.1.dmg" length="35841252" type="application/octet-stream" sparkle:edSignature="BzKsoi+IQkFTbj5ahkBa7sR6PIw08hDR1JrehnFmAZagSjtu4D3hsUUXeIdb+1OUijJyER/tJ0qxcKSD9OfNCQ==" />
     </item>
+    <item>
+      <title>Version 1.88.2</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.88.2</link>
+      <sparkle:version>163</sparkle:version>
+      <sparkle:shortVersionString>1.88.2</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>160</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>163</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Fixes</h4>
+          <ul>
+          <li><strong>Restoring a deleted note brings its picture back.</strong> When sync brings a picture for a note in Recently Deleted, this Mac now keeps it, and it fetches pictures it skipped before, so a restored note shows its picture again. Files over 5 MB are not covered yet.</li>
+          <li><strong>The move to files no longer waits on preview pictures.</strong> On a Mac offered the move of its library into files, a preview picture that never arrived on this Mac kept the offer from appearing. The move now goes ahead. A link moved without its preview gets it as soon as it arrives.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.88.2/Slash-1.88.2.dmg" length="35824712" type="application/octet-stream" sparkle:edSignature="GlYGtxG+IZsbDNm9kvUYvrgf6WHLMkhLCjJP8g5aZkWOGfrsQCbnqmzSTWgLex3jg9c+KnEgfJrGvdQal8iZAg==" />
+    </item>
   </channel>
 </rss>
