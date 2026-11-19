@@ -4247,5 +4247,47 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.88.2/Slash-1.88.2.dmg" length="35824712" type="application/octet-stream" sparkle:edSignature="GlYGtxG+IZsbDNm9kvUYvrgf6WHLMkhLCjJP8g5aZkWOGfrsQCbnqmzSTWgLex3jg9c+KnEgfJrGvdQal8iZAg==" />
     </item>
+    <item>
+      <title>Version 1.89.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.89.0</link>
+      <sparkle:version>164</sparkle:version>
+      <sparkle:shortVersionString>1.89.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>160</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>164</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Commands and saved items get their own homes.</strong> On a Mac whose library is in files, commands not in a folder now live in <code>Commands/</code>, and saved links, posts, articles, videos and files not in a folder live in <code>Saved/</code>. The top of <code>~/Slash</code> then holds only your notes and folders. The Library adds a <strong>Saved</strong> row under Commands. Slash backs up the library first and keeps that backup for 30 days, then tidies it once on the first launch.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Notes and commands are easier to read.</strong> Text is larger (16 px), the title is bolder, headings are calmer and have space above them, and the gap between paragraphs is half a line. You can scroll past the end of a note.</li>
+          <li><strong>Cleaner names for saved posts.</strong> Saved posts are named "Author – first words". A leading "(4)" and a trailing " - YouTube" are dropped.</li>
+          <li><strong>Clearer wording across the app.</strong> Menus, messages and settings use the same plain, sentence-case wording. A one-item delete asks "Delete this clip?".</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>A deleted note's large file still reaches your other devices.</strong> A note over 5 MB that went to Recently Deleted before its file finished uploading came back without the file when restored elsewhere. Its upload now finishes.</li>
+          <li><strong>A deleted command keeps its newest picture.</strong> An older picture from another device no longer replaces the picture on a command in Recently Deleted.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.89.0/Slash-1.89.0.dmg" length="36076095" type="application/octet-stream" sparkle:edSignature="4LkH3dNxhTOCmUhI4NWegpAly10xtxYCfTcu0G6rzNL+pFWnuh9x0iMIp+TgjL6neLuVhZ+v+20CnZDW3iidBg==" />
+    </item>
   </channel>
 </rss>
