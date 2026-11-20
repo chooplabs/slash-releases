@@ -4289,5 +4289,54 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.89.0/Slash-1.89.0.dmg" length="36076095" type="application/octet-stream" sparkle:edSignature="4LkH3dNxhTOCmUhI4NWegpAly10xtxYCfTcu0G6rzNL+pFWnuh9x0iMIp+TgjL6neLuVhZ+v+20CnZDW3iidBg==" />
     </item>
+    <item>
+      <title>Version 1.90.0</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.90.0</link>
+      <sparkle:version>165</sparkle:version>
+      <sparkle:shortVersionString>1.90.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>160</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>165</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Improvements</h4>
+          <ul>
+          <li><strong>A tidier "/" menu in notes.</strong> Typing "/" shows <strong>Style</strong> (text, headings, lists, quote, callout, code and divider, plus a new <strong>Text</strong> row that turns a heading back into plain text) and <strong>Actions</strong> (Link to note, Add picture and Today's date). Rows with a keyboard shortcut, or characters that type them, show them in key caps. Formats and your commands still appear as you type.</li>
+          <li><strong>Resize or delete a photo from the keyboard.</strong> Press Backspace right after a photo, or Delete right before it, to select it and show its Small / Medium / Large / Delete bar. ← and → move along the bar, and Return presses a button. A second Backspace deletes the photo, as before.</li>
+          <li><strong>Settings ▸ Agents is simpler.</strong> Each connected agent shows its name, where it runs and when it was last used, with one Disconnect button.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Highlight works in the selection bar.</strong> Clicking Highlight shows its colour row again, and the row stays open while you pick a colour.</li>
+          <li><strong>The one-time library tidy finishes.</strong> A command or saved item you'd edited outside Slash now moves into <code>Commands/</code> or <code>Saved/</code> once Slash has read the edit, instead of staying at the top of <code>~/Slash</code>. An <code>attachments</code> folder Slash has emptied is removed too.</li>
+          <li><strong>The Slash Bar shows ↵ once.</strong> The Save rows no longer repeat the ↵ that the strip at the bottom already shows.</li>
+          <li><strong>Tags show tasks too.</strong> A tag in the sidebar counts and lists every item with it, open tasks included. A tag only tasks had never showed up there before.</li>
+          <li><strong>Every Library list shows its count in the sidebar.</strong> All Items, Notes, Commands, Saved and Favorites now show how many items they hold, like Tasks and folders already did.</li>
+          <li><strong>Overdue dates are easier to read in dark mode.</strong> The red is a little lighter, so it stays clear on a selected row. Error messages use the same red.</li>
+          <li><strong>Slash Bar suggestions show a note's title as the Library does.</strong> A note titled "# Plan" reads "Plan".</li>
+          <li><strong>Tidier Library edges.</strong> The sidebar's "Capture, ask, or /…" box no longer cuts its words or wraps its shortcut. When the sidebar is too narrow for both, the shortcut hides. The "…" button at the top right of a page is as bright as the buttons beside it in dark mode. "Send feedback", the Shortcuts list and the menu bar menu use sentence case like the rest of Slash.</li>
+          <li><strong>Bold, italic or strikethrough no longer turns a coloured highlight yellow.</strong> Formatting text inside a red, green or other coloured highlight keeps its colour.</li>
+          <li><strong>Embedded pictures and PDFs no longer show as <code>![[…]]</code> in the Library list.</strong> A note's row skips an embed the way it skips a picture.</li>
+          <li><strong>Highlighted words read cleanly in the Library list.</strong> A note's preview line shows "word", not <code>==word==</code>.</li>
+          <li><strong>No stray "!" before a missing embed.</strong> An embed whose file or note can't be found reads as its plain link.</li>
+          <li><strong>Clearer wording in a few places.</strong> Getting Started's first page, the message when account activation can't finish, and the note shown while an update check is already running read more plainly.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.90.0/Slash-1.90.0.dmg" length="36051700" type="application/octet-stream" sparkle:edSignature="ZcuhvQNBIF+Zk5atDtOKuY1FwTSJ7+oFo8IQDE0iIp3SNqrxs1kfc2P5kZz+L7PHzDyD2mnDmbyQ/MyIiHKNCQ==" />
+    </item>
   </channel>
 </rss>
