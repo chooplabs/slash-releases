@@ -4374,5 +4374,45 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.90.1/Slash-1.90.1.dmg" length="36066197" type="application/octet-stream" sparkle:edSignature="QTZdYCTxUzgYVUgAKvPvFca2BA8B7aOM6d9khyrdm4gc2Z5G0wiG533K6bi6jFvEkWILK59H8TSfaaq7REcPAA==" />
     </item>
+    <item>
+      <title>Version 1.90.2</title>
+      <link>https://github.com/mikekarnj/slash-releases/releases/tag/v1.90.2</link>
+      <sparkle:version>167</sparkle:version>
+      <sparkle:shortVersionString>1.90.2</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>160</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>167</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Clean up after your phone's first sync.</strong> If your phone's first encrypted sync left "(conflicted copy, Android, …)" items, or replaced items with a version missing a card picture, a saved answer or an alias, the Library shows a one-time banner. Review… lists the copies that hold nothing the original lacks, which move to Recently Deleted, and the items it can return to their earlier version, which should bring back the missing card picture, saved answer or alias. That restore hasn't been tried on a real library yet, so check the items it lists. Copies with something of their own are listed for you to check. Nothing changes until you click Clean up, and Dismiss hides what the banner showed for good.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>The Library shows encrypted sync's status.</strong> With encrypted sync on, the footer shows Syncing… and then a brief check when a sync finishes, instead of "Sync off". Settings ▸ Sync reads "Synced just now" instead of "Synced in 0s".</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Joining sync keeps fewer conflicted copies.</strong> When a device joins encrypted sync, an item that differs only in how a link to a library file is written, or in the Unicode form of its title, counts as the same item, so no copy is kept. A real difference, such as another picture or other text, still keeps one.</li>
+          <li><strong>Rejoining sync after signing out keeps no copies of edits made elsewhere.</strong> A device that signs out of encrypted sync and joins again takes the edits your other devices made in the meantime, instead of keeping a conflicted copy of each. An edit made on that device while it was signed out still keeps a copy.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.90.2/Slash-1.90.2.dmg" length="36297934" type="application/octet-stream" sparkle:edSignature="q2izSIZJd6jnn6SEAO6fYkCM1gup5pc+1CYY3EK0yK7R+eKnUxVzQY7ikT129SgV37NDH/W3U0LflXsL4iKnAg==" />
+    </item>
   </channel>
 </rss>
