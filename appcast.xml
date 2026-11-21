@@ -4414,5 +4414,36 @@
           </ul>]]></description>
       <enclosure url="https://github.com/mikekarnj/slash-releases/releases/download/v1.90.2/Slash-1.90.2.dmg" length="36297934" type="application/octet-stream" sparkle:edSignature="q2izSIZJd6jnn6SEAO6fYkCM1gup5pc+1CYY3EK0yK7R+eKnUxVzQY7ikT129SgV37NDH/W3U0LflXsL4iKnAg==" />
     </item>
+    <item>
+      <title>Version 1.90.3</title>
+      <link>https://github.com/chooplabs/slash-releases/releases/tag/v1.90.3</link>
+      <sparkle:version>168</sparkle:version>
+      <sparkle:shortVersionString>1.90.3</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>160</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>168</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Fixes</h4>
+          <ul>
+          <li><strong>One cleanup for every copy your phone's sync made.</strong> The "Clean up after sync" banner comes back once and lists every "(conflicted copy, Android, …)" item from the days a phone joined encrypted sync, including the ones the last cleanup left for you to check, with how each differs from its original. Clean up moves them all to Recently Deleted, where you can still get any of them back. Items the phone replaced with a version missing a card picture, a saved answer or an alias get their earlier version back. Nothing changes until you click Clean up.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/chooplabs/slash-releases/releases/download/v1.90.3/Slash-1.90.3.dmg" length="36410398" type="application/octet-stream" sparkle:edSignature="vrvyGPwb9NNzAUp2x0neVy1HWgddEDaoDNMuAVfQgXCsUI5h84xJidKhxiCgBDWaN1VqZYgA6EcPSWnsH3DbCg==" />
+    </item>
   </channel>
 </rss>
