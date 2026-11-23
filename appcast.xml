@@ -4445,5 +4445,36 @@
           </ul>]]></description>
       <enclosure url="https://github.com/chooplabs/slash-releases/releases/download/v1.90.3/Slash-1.90.3.dmg" length="36410398" type="application/octet-stream" sparkle:edSignature="vrvyGPwb9NNzAUp2x0neVy1HWgddEDaoDNMuAVfQgXCsUI5h84xJidKhxiCgBDWaN1VqZYgA6EcPSWnsH3DbCg==" />
     </item>
+    <item>
+      <title>Version 1.90.4</title>
+      <link>https://github.com/chooplabs/slash-releases/releases/tag/v1.90.4</link>
+      <sparkle:version>169</sparkle:version>
+      <sparkle:shortVersionString>1.90.4</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>160</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>169</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Fixes</h4>
+          <ul>
+          <li><strong>Joining sync no longer makes conflicted copies of your notes and commands.</strong> When this Mac joins encrypted sync, or rejoins after signing out, a note or command that differs from the cloud's copy now takes the cloud's version, and this Mac's version goes to Recently Deleted instead of becoming a "(conflicted copy, Mac, …)" item. It stays on this Mac, and Restore brings it back as a separate note or command. Pictures, saved files, commands with a picture or photos, and items holding something Recently Deleted can't keep, such as properties another app added, still keep a conflicted copy, as before.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/chooplabs/slash-releases/releases/download/v1.90.4/Slash-1.90.4.dmg" length="36300920" type="application/octet-stream" sparkle:edSignature="SaXVx/ayszqrsoYeGvSbSH+wuDA790Exi2zhFUBNwOqOpFxbTlou1OqVgymlgMzt2LHGCfl/IJX8+MzlreOnBw==" />
+    </item>
   </channel>
 </rss>
