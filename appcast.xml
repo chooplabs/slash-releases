@@ -4476,5 +4476,44 @@
           </ul>]]></description>
       <enclosure url="https://github.com/chooplabs/slash-releases/releases/download/v1.90.4/Slash-1.90.4.dmg" length="36300920" type="application/octet-stream" sparkle:edSignature="SaXVx/ayszqrsoYeGvSbSH+wuDA790Exi2zhFUBNwOqOpFxbTlou1OqVgymlgMzt2LHGCfl/IJX8+MzlreOnBw==" />
     </item>
+    <item>
+      <title>Version 1.91.0</title>
+      <link>https://github.com/chooplabs/slash-releases/releases/tag/v1.91.0</link>
+      <sparkle:version>170</sparkle:version>
+      <sparkle:shortVersionString>1.91.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>170</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>170</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>Improvements</h4>
+          <ul>
+          <li><strong>Agents ask before they change your notes and tasks.</strong> In Settings ▸ Agents, Create and edit now starts on Ask, so an agent on this Mac waits for your OK before it adds or edits a note, task or file. That includes agents you connected earlier. If you've already changed an agent permission, your choices stay as they are. Read and search still starts on Allow, and Delete and Commands still start on Ask.</li>
+          <li><strong>One list shows what agents did.</strong> Settings ▸ Agents has a single Activity on this Mac list in place of Access log and Agent Activity. It shows the five newest entries, and Show more opens the rest. Notes a connected agent adds, and text it adds to notes, now appear there too.</li>
+          <li><strong>A simpler Agents page.</strong> The commands and words you share are folded into one row under each agent, and Connection health appears only when something needs your attention.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Settings buttons are readable in dark mode.</strong> Buttons that looked greyed out even though they worked now have clear labels. So do the Terms and Privacy links when you sign in and the archive recovery button on the App Lock recovery screen.</li>
+          <li><strong>An agent can add to a note that doesn't exist yet.</strong> With Create and edit on Ask, adding text under a new title now asks to make the note instead of being refused.</li>
+          <li><strong>Retrying a sync join makes fewer duplicate backups.</strong> If saving the cloud's version of a note or command fails and Slash tries again, the version it already kept in Recently Deleted should be reused. Items with pictures, saved links and a retry after reopening Slash can still get a second copy.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/chooplabs/slash-releases/releases/download/v1.91.0/Slash-1.91.0.dmg" length="36458040" type="application/octet-stream" sparkle:edSignature="rpSbQfISxNnccV9fwZUDe/5qjHj7448EwWE628RcYGvYszjRUCxEr4b9w3Wp4upWYo4/rs6oek3CM0HEnNOHDA==" />
+    </item>
   </channel>
 </rss>
