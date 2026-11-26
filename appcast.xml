@@ -4515,5 +4515,47 @@
           </ul>]]></description>
       <enclosure url="https://github.com/chooplabs/slash-releases/releases/download/v1.91.0/Slash-1.91.0.dmg" length="36458040" type="application/octet-stream" sparkle:edSignature="rpSbQfISxNnccV9fwZUDe/5qjHj7448EwWE628RcYGvYszjRUCxEr4b9w3Wp4upWYo4/rs6oek3CM0HEnNOHDA==" />
     </item>
+    <item>
+      <title>Version 1.92.0</title>
+      <link>https://github.com/chooplabs/slash-releases/releases/tag/v1.92.0</link>
+      <sparkle:version>171</sparkle:version>
+      <sparkle:shortVersionString>1.92.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>170</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>171</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Try a failed dictation again.</strong> When Slash heard you but couldn't turn it into text, the dictation pill offers Retry, and the recording also waits in the Library's History for you to retry later. It's kept encrypted on this Mac only, for up to 14 days, and deleted once a retry works. With Save dictation history off, new failed recordings aren't kept and Retry lasts only while the pill is open. A recording Apple's speech engine couldn't read now says it failed instead of "Didn't catch anything".</li>
+          <li><strong>Choose your microphone.</strong> Settings ▸ Dictation has a Microphone menu. It starts on the system default, remembers the mic you pick, and uses the default while that mic isn't connected.</li>
+          <li><strong>Mute other audio while you dictate.</strong> Turn it on in Settings ▸ Dictation, and music or a video goes quiet while you talk and comes back when the recording ends.</li>
+          <li><strong>Dictate with one right-hand key.</strong> In Settings ▸ Shortcuts, record right ⌘, ⌥, ⌃ or ⇧ on its own for Dictation, then hold it to talk or tap it to start and stop. Pressing another key with it cancels, so right ⌘+C still copies.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Keep your dictation history as long as you like.</strong> Dictations are no longer capped at the newest 50. Settings ▸ Dictation ▸ Keep history for offers the same choices as Clipboard and starts on Forever. "Keep recent dictations" is now called "Save dictation history".</li>
+          <li><strong>More time to finish your last word.</strong> After you let go of the dictation key, Slash keeps listening a little longer, up to 0.6 seconds, while you're still finishing a word.</li>
+          <li><strong>My words gets names right more often.</strong> With Slash Cloud, a name from My words is fixed when the on-device engine heard it at about the same point, and ordinary English words are left alone. The matching runs on your Mac. English only. The on-device Parakeet engine no longer swaps ordinary words for My words terms, such as "sync code" for "Codex".</li>
+          <li><strong>Less waiting for the first Chat search.</strong> Slash prepares your notes and dictations for Chat and Find in the background after launch, so a first search has less left to do.</li>
+          <li><strong>Recording a shortcut is clearer.</strong> A recorder waiting for keys shows "Press keys…" and the modifiers you're holding. A key it can't use says why, such as "Add ⌃, ⌥ or ⌘.", instead of only beeping, and F-keys work on their own.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/chooplabs/slash-releases/releases/download/v1.92.0/Slash-1.92.0.dmg" length="36849771" type="application/octet-stream" sparkle:edSignature="B2JnaP+0CWQQCMGXTxx9nndK/Fb2Q4ZowF4bFIVS1eUQCpCptA42BoHAg/dKkcdGdxJv8UzSqOJRv5QH6PxBCw==" />
+    </item>
   </channel>
 </rss>
