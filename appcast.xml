@@ -4594,5 +4594,47 @@
           </ul>]]></description>
       <enclosure url="https://github.com/chooplabs/slash-releases/releases/download/v1.93.0/Slash-1.93.0.dmg" length="37026968" type="application/octet-stream" sparkle:edSignature="rc+ZdPKzoDSH94eRFixfrK6zGeXGsh9eW8Ns1qAmqRqw6zhLnFBlmnd6fcMRaf/YDNW7NmI38kafJhG1azCqDw==" />
     </item>
+    <item>
+      <title>Version 1.94.0</title>
+      <link>https://github.com/chooplabs/slash-releases/releases/tag/v1.94.0</link>
+      <sparkle:version>173</sparkle:version>
+      <sparkle:shortVersionString>1.94.0</sparkle:shortVersionString>
+      <sparkle:minimumAutoupdateVersion>170</sparkle:minimumAutoupdateVersion>
+      <sparkle:ignoreSkippedUpgradesBelowVersion>173</sparkle:ignoreSkippedUpgradesBelowVersion>
+      <description><![CDATA[<style>
+  body { font: -apple-system-body, 13px -apple-system, system-ui, sans-serif; color: #1d1d1f;
+         margin: 0; padding: 4px 2px; line-height: 1.45; }
+  h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: #6e6e73;
+       margin: 14px 0 6px; }
+  h4:first-child { margin-top: 2px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  code { font: 11.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+         background: rgba(0,0,0,.06); padding: 1px 4px; border-radius: 4px; }
+  a { color: #6c4cf1; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; }
+    h4 { color: #98989d; }
+    code { background: rgba(255,255,255,.10); }
+    a { color: #a58cff; }
+  }
+</style>
+<h4>New</h4>
+          <ul>
+          <li><strong>Turn anything into a task.</strong> A saved link, picture, file or voice note can now become a task from its ⋯ menu (Turn into Task), not only a text note, and turn back into a note the same way. It keeps its link, picture or file and shows in Tasks. A saved link, picture or file also stays in Saved until you finish it.</li>
+          <li><strong>Edit a table cell right where it is.</strong> Click a cell in a table to change its words without the table turning into Markdown. Return or Escape finishes, Tab moves to the next cell, and ⌘A and ⌘B work inside the cell.</li>
+          <li><strong>Rename a saved file without losing its name.</strong> A file's title is now editable, and the file keeps its own name, shown under the title with its size. Click that line to open the file. Download saves it straight to your Downloads folder under its own name, and Library search still finds it by that name.</li>
+          </ul>
+          <h4>Improvements</h4>
+          <ul>
+          <li><strong>Tables are easier to read.</strong> Bold, italic, strikethrough, code and highlights now show inside table cells. A long cell wraps at half the width of the note without splitting words, and a table that's still too wide scrolls sideways in its own box instead of squeezing the words.</li>
+          <li><strong>Ramble is now called Voice note.</strong> The starter command, its saved notes and its messages use the new name, and the Slash Bar finds it when you type "voice note". The <code>/ramble</code> trigger still works.</li>
+          </ul>
+          <h4>Fixes</h4>
+          <ul>
+          <li><strong>Favorites stay where you put them.</strong> Updating from an older version no longer pins your favorites to the top; only you pin items. Pins 1.93.0 already made stay until you unpin them.</li>
+          </ul>]]></description>
+      <enclosure url="https://github.com/chooplabs/slash-releases/releases/download/v1.94.0/Slash-1.94.0.dmg" length="36990876" type="application/octet-stream" sparkle:edSignature="TQcSW7bCLiNukPyyi1kuDk19q2PBXePK3xpYMdDEiNPBbgK1VB+hHvIxPq82MXWW5FITfR2KpK69r1O3pQcPAA==" />
+    </item>
   </channel>
 </rss>
